@@ -1,125 +1,205 @@
-# Keywords
-Hey guys, these are few keywords related to computer science
+# **BASIC KEYWORDS**
+![learn_cisheader](https://github.com/raunakkk21/Keywords/assets/143111163/f254edf9-d081-475c-9629-9cc407bc42e0)
 
-![learn_cisheader](https://github.com/raunakkk21/Keywords/assets/143111163/01da1b1f-1dad-45b3-a73f-ab9c1f62c4f0)
+1.**CISC** - Complex Instruction Set Computer- Closed source - intel, AMD  
+2.**RISC** - Reduced Instruction Set Computer- Closed source - ARM  
+3.**RISC-V** - It is an ISA based on reduced instruction set computer (RISC) principles. It is Open Source unlike the parent RISC.  
+4.**Kernel** - programm to manage communication between software i.e. user-level applications and hardware i.e., CPU and disk memory
+-  Kernel Programming Languages
+   - C++
+   - Rust
+   - C
 
-1.DESKTOP-->Desktop mainly divided into three parts- 1. Computation 2.Storage 3. Network
+| Kernel spaace | User space |
+| -------------- |------------|
+|System interface | Application code|
+|Generic services | C Library|
+|Device drivers | - |   
+5. **DNS** - turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.  
+- Working of DNS
+  
+  ![DNS-record -Main-types-of-DNS-Records](https://github.com/raunakkk21/Keywords/assets/143111163/737e32d0-1775-472f-900a-213baf0d8996)
 
-2.SOME TERMS - CPU-centrCal processing unit GPU-graphic processing unit DPU-data processing unit TPU-tensor processing unit
+6.**ISA** - Instruction Set Architecture - hardware interaction - input-outputs, registers, data types  
+7.**IP Addresss**- Internet Protcol (IPv4,IPv6)    
+- Public IP - B/W Internet and Device, assigned by internet service provider to the device  
+- Private IP - in a private network [starts with 10., 172.16, 192.168  
+- Local IP - [starts with 127.00.0
+9.**Port No.** - a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.[for http - 80]
+  - SSH(Secure Shell) - 22
+  -  SMTP - 25
+    - Telnet - 23
+    -  https - 443
 
-3.CISC(Complex instruction set computer)--closed source like intel and AMD(advanced micro devices).It develop X-86 series under ISA[intruction set arichtecture] in 1978.
+10.**SSL**- Secure Socket layer- IP Address + Port number   
+11.**Seven Layers Of OSI**(Open Systems Interconnection)  
+- L7 - Application  
+- L6 - Presentation  
+- L5 - Cryptography  
+- L4 - Port Number(16 Bits)  
+- L3 - IP Address (32 Bits) : Router  
+- L2 - Hardware Address - NIC, MAC Address(48 Bits) : Ethernet :SWITCH  
+- L1 - Digital (1 and 0)
+12. **Switch** - connects devices in a network to each other, enabling them to talk by exchanging data packets.
+13. **Virtual Machine** - created by using Hypervisor
+14. **FPGA** - Field Programmable Gate Arrays  - Configurede after manufacturing
+15. **Socket** - Software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network
+16. **TCP** - Transmission Control Protocol (TCP) is a standard that defines how to establish and maintain a network conversation by which applications can exchange data
+17. **MAC Address** - Media Access Control address is a unique identifier assigned for use as a network address in communications within a network segment.
+18. **Protocol**- It is a standardized set of rules for formatting and processing data.
+19. **Firmware** - It is a microcode or program that is embedded into the memory of hardware devices to help them operate
+20. **TLS** - Transport Layer Security encrypts data sent over the Internet : Version 1.3
+21. **Cache** - a cache is a high-speed data storage layer which stores a subset of data (temporary mermory)
+22. **STACK** - Stack is a linear data structure that follows a particular order in which the operations are performed. **LIFO** (Last In First Out)
 
-4.RISC(Reduced instruction set computer)--close source like ARM[Adavnce risc machine] .It has specific intruction,very fast and efficient.
+  
+23. Von Neuman Architecture **VS** Harvard Architecture
+ 
+![265271570-0c89419c-74ba-4024-94e4-f751d391bb8d](https://github.com/raunakkk21/Keywords/assets/143111163/d32e1f26-e650-4a00-9ddd-1f4769cac21b)  
 
-5.RISC-V--it is based on RISC principles and develop in 2023 and which is a free open source.
+24. **Debian** - Linux Software/OS Family
+25. **VMware Workstation** - IT is a line of Desktop Hypervisor products which lets users run virtual machines, multiple OS
+26. **VPN** - It establishes a digital connection between your computer and a remote server owned by a VPN provider, creating a point-to-point tunnel that encrypts your personal data, masks your IP address, and lets you sidestep website blocks and firewalls on the internet.
+27. **Cryptography** - It is the practice and study of techniques for secure communication in the presence of adversarial behavior. It is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. 
+28. **Hypervisor** - It is a type of computer software, firmware or hardware that creates and runs virtual machines.
 
-6.KERNEL--that manages operations between computer and hardware.
-![68747470733a2f2f7777772e6c616b6573696465736f6674776172652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032312f30332f6b65726e656c2d6d6f64652d76732d757365722d6d6f64652d646966666572656e6365732e706e67](https://github.com/raunakkk21/Keywords/assets/143111163/319c58ee-cc60-4d2b-9beb-5a0941e605a3)
+| Type I  | Type II |
+| ------------- | ------------- |
+| Native (bare metal)  | Hosted  |
+| Directly on hardware and runs guest OS  | Runs on previously installed OS  |
+| acts as light weight as it runs directly  | runs as software like other computer programs  |
 
-Kernal Programming Languages-  
-C, C++ & Rust
-7.OPERATING SYSTEM- a.Windows b.MacOS
+29. **BareMetal**- Fresh Servers
+30. **IAM** - Identity and access management
+31. **nginx** - proxy server
+32. **apache** - client server - uses httpd(d stands for dameon:continuously runs in background) that creates a pool of child processes or threads to handle requests.
+33. **ASICs** - *(Application-Specific Integrated Circuits)* are computer chips that combine several different circuits all on one chip – it's a "system-on-a-chip" (SoC) design – allowing it to be custom programmed to combine several related functions that together carry out a specific overall task.
+34. **UDP** - User Datagram Protocol, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups
+35. **Packets** - a packet is a small segment of a larger message. Data sent over computer networks, such as the Internet, is divided into packets, recombined by te client computer
+36. **Load Balance** - Load balancing is the method of distributing network traffic equally across a pool of resources that support an application.
+37. **Server** - a computer program or device that provides a service to another computer program and its user, also known as the client.
+- *Client Server* - A relationship in which one program, the client, requests a service or resource from another program, the server. **EX** - email, network printing, and the World Wide Web
+- *Proxy Server* - A server that acts as an intermediary between the request made by clients **EX** - an HTTP proxy intercepts web access, and an SMTP proxy intercepts email
 
-8.LINUX-It is open source operting system made by linus torvalds.Came under UNIX[uniplexed information computer sysytem]. LINUX has two types of family- a.Debian-It contain OPERATING SYSTEM like UBUNTU[open source,developed by CANONICAL],KALI LINUX. b.RHEL[red hat enterprise linux]-It contain OPERATING SYSTEM likre centOS,oracle,fedora,red hat. Packing manager: Yum It is owned by IBM[international business machine] at 40 billon dollor.
+| Forward Proxy  | Reverse Proxy |
+| ------------- | ------------- |
+| It accepts connections from computers on a private network and forwards those requests to the public internet.   | Public access point for users to access data and information that is stored on servers that reside in a private, isolated subnet.  |
+| Acts as single point of exit for subnet users who want to access resources outside of their private network.  | Acts as a single point of entry for external systems to access resources on a private subnet.  |
+| Banks and insurance companies, and government agencies use it to protects corporate computers from outside attacks from this isolation  | Large websites and content delivery networks to balance the load between internal servers.  |     
 
-9.NETWORK There are two types of network- 1.Internet[(WAN-wide area network) and it is a public network] 2.Intranet[(LAN-local area network) and it is a private network]
-
-10.CLOUD COMPUTING CLOUD means internet which is a public network[distributed over multiple location]. a.AWS[amazon web services]-by amazon b.AZURE-by microsoft c.GCP[Google Cloud Platform]-by goggle
-
-11.Ip address[internet protocol]-a unique address which identify the device on internet or on local internet .There are three types of ip address-
-Private-ex:starts with 10. ,172. ,192. .
-Public- ex:starts with 11..
-Local-ex:starts with 127.0.00[a specific number]
-like JIO-ipv6, airtel-ipv4.
-
-12.DNS[domain name server]- turns domain names intoIP Address. ex:google.com
-
-13.Routing-the process of path selection in any network.
-
-14.BARE METAL -fresh server[which has no operating sysytem]
-
-15.DUAL BOOT-2 operating system
-
-16.HYPERVISOR -A program used to run and manage two or more virtual machine. There are two type of hypervisor- a.type-1
-b.type-2
-
-17.type-1 -- there is no need to install operating system. Bare metal-->hypervisor type-1-->VM1,VM2,VM3..
-
-18.type2--there is a need to install operating system . bare metal-->install operating system-->VM1,VM2,VM3-->type 2[VM1,VM2,VM3..,Virtual box,work station,VM Ware]
-
-19.VM WARE-it is a company of cloud computing and a open source(oracle),owned by broad com(62 billon$)
-
-20.GPPR--general data protection regulation
-
-21.FAANG,MAANG,MERN
-
-22.FPGA-field programmable gate array
-
-23.Company only make silicon chip a.taiwan b.intel c.samsung
-
-24.Cryptography-secure information and communication
-
-25.post-cryptography-it ia technology which is trend now a day .
-
-26.https-s means secure socket layer(SSL)
-
-27.SSL[secure socket layer]-ip address[layer3]+ port number[layer4]
-
-28.Port number-a way to indentify a specific process to which an internet or other network message is to be forwarded when it arrives at a server. eg:
-HTTP-80
-HTTPS-443
-FTP-20,21
-SMTP-25
-TELMET-23
-SSH[secure shell]-22
-
-29.SEVEN LAYER OF OSI[OPEN SYSTEM INTERCONNECTION] ~layer7-application/protocol
-~layer6-presentation
-~layer5-cryptography
-~layer4-port number[16 bits]
-~layer3-IP ADDRESS[32 bits]
-~layer2-hardware address-NIC,MAC
-~layer1-digital(1 and 0)
-
-30.TCP/IP(TRANSMISION CONTROL PROTOCOL)-layer5+layer6+layer7
-
-31.URL-uniform resource locator
-
-32.cache-it is a high-speed data storage layer which stores a subset of data [temporary memory]
-
-33.Switch - connects device in network to each other, enabling them to each other, enabling them to talk by exchanging data packets.
-
-34.Virtual Machine - created by using Hypervisor
-
-35.FPGA - Field Progarmming Gate Arrays - Configurede after manufacturing
-
-36.Protocol - It is a standardized set of rules for formatting and processing data.
-
-37.Firmware- It is micro code or program that is embedded into memory of hardware device to help them operate.
-
-38.TLS - Transport layer security encrypts data send over the internet.
-
-39.Stack - Stack is a linear data structure that follows a particular order in which the operation are peroformed. LIFO(Last In First Output).
-
-40.IAM- Identity and access management
-
-41.nginx - proxy server
-
-42.apache- client server - uses httpd(d stands for dameon: continuously runs in background) that creates a pool of child processes or threads to handle requestes.
-
-43.ASICSs- (Applications - specfic integrated circuits) are computer chips that combine sveral different circuits or all one chip - Its a "System-on-a-chip" (SoC) design.
-
-44.UDP- User datagram protocol, is a commuincation protocol used acrros the internet for especially time- sensitive transimission
-
-45.Packets- Its a small segment of a large message. Data send over computer networks, such as internt, is divided into packets, recombined by client computer
-
-46.Load balancer- It is the method of distributing network traffic eqaully across a pull of resources that support an application.
-
-47.Von Neumann architecture and harvard architecture
-
-
-![68747470733a2f2f7374617469632e6a61766174706f696e742e636f6d2f696e746572766965772f696d616765732f6f6f70732d696e746572766965772d7175657374696f6e732d71342e706e67](https://github.com/raunakkk21/Keywords/assets/143111163/bba4ab26-bd9a-49b2-b650-3c3cae377413)
+![maxresdefault](https://github.com/raunakkk21/Keywords/assets/143111163/30d78488-3847-4c98-b2ed-39c0479bbbe7)  
+# Cloud Concepts
+### Use Cases
+1. Fraud Detection and Prevention
+2. Personalized Treatments
+3. Online Games
+### Some Terms related to Cloud Computing
+- Infrastructure as a Service **(IaaS)** : Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE), IBM Cloud
+- Platform as a Service **(PaaS)** :  Windows Azure, Google App Engine, AWS Lambda, Azure Functions.
+- Software as a Service **(SaaS)** : Salesforce, Shopify, MailChimp, Dropbox, Hubspot
+### Types of Cloud
+1. Public Cloud - Anywhere on the internet : Cloud Service Provider provides the infrastructure(AWS, Azure) :: *Multi-Tenant*
+2. Private Cloud - Inside the Organisation Network : Organisation solely responsible for infra :: *Single-Tenant*
+3. Hybrid Cloud - Inside Organisation or Anywhere on te internet :: *Multi Tenant + Single Tenant*
+## Characterics of Cloud Computing
+- On demand Self-service
+- Broad Network Access
+- Resource Pooling
+- Rapid Elasticity
+- Measured Service
+### Benefits of CLoud Computing
+1. pay as you go
+2. scalability
+3. Accessibility
+4. Cost effective
+5. Go global in minutes
+### OOPs Concept
+![what-is-object-oriented-programming7](https://github.com/raunakkk21/Keywords/assets/143111163/cc924080-5220-407f-9c2e-f9020ab259f1)
 
 
 
+# Often used Linux Commands
+1. **ls** - List directory content
+2. **cd** - Change directory
+3. **mkdir** - Make a new directory
+4. **rm**- Remove Files/Directories
+5. **mv** - Move or rename files or directories
+6. **chmod** - Change files or Directories permission 
+- chmod *777* command gives read, write and execute permissions
+7. **cp** - Copy Files or Directories
+8. **chown** - Change file or directory ownership
+9. **top** - Display system process
+10. **cat** - Concatenate and siplay files
+11. **tar** - Create or extract archieve files
+12. **ps** - Display running Processes
+13. **kill** - Terminate Processes
+14. **pwd** - Present working Directory
+15. **sudo** - Execute Command as a superuser
+16. **ping** - Test Network Connectivity b/w hosts
+17. **du** - Estimate File Space Usage
+18. **vi & nano** - File editor
+19. **touch** - Create new File
+# Computing Basics
+1. **SSL Certificate** - Certificate which is statndard for all the domains *X.509*
+   - Certifying Authority like Godaddy, Hostinger, Namecheap
+   - Signing Certificate Algo is Cryptography : RSA, Elliptic Curve
+- *OpenSSL* is an open-source command line tool that is commonly used to generate private keys, create CSRs, install your SSL/TLS certificate, and identify certificate information. 
+2. **NAT** - Network Address Translation : Convert Private IP Address to public IP Address & vice-versa
+3. **Router** - a device that connects two or more packet-switched networks or subnetworks.
+4. **Compiler** - computer software that translates (compiles) source code written in a high-level language (e.g., C++) into a set of machine-language instructions that can be understood by a digital computer's CPU
+5. **Interpreter** - A computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program.
+6. **Scheduling** - It is the action of assigning resources to perform tasks. The resources may be processors, network links or expansion cards. The tasks may be threads, processes or data flows.
+
+# Ubuntu Directories
+- */bin* - user Binaries
+- */sbin* - System Binaries
+- */etc* - Configuration Files
+- */dev* - Device Files
+- */proc* - Process Information
+- */var* - Variable Files
+- */tmp* - Temporary Files
+- */usr* - User Programs
+- */home* - Home Directories
+- */boot* - Boot Loader Files
+- */lib* - System Libraries
+- */opt* - Operational Application
+- */mnt* - Mount Directory
+- */media* - Removable Devices 
+- */srv* - Service Data
+## Blockchain
+- Satoshi Nakamoto is the creator of Blockchain
+- Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network.
+- Blockchain helps in the verification and traceability of multistep transactions needing verification and traceability.
+- Blockchain uses the three principles of cryptography, decentralization, and consensus to create a highly secure underlying software system that is nearly impossible to tamper with.
+#### Currency
+- Cryptocurrencies are digital currencies that use cryptography to secure and verify transactions in a network. Cryptography is also used to manage and control the creation of such currencies : *Bitcoin and Ethereum*
+- Virtual currencies are a form of digital currency. They are issued by private parties, such as a group of developers or organizations, and are intended only for online use
+ - *ICO* - An initial coin offering (ICO) is the cryptocurrency industry's equivalent of an initial public offering (IPO) used in order to raise capital
+
+38. **Types of Computing**
+- *Desktop Computing* - Desktop computing devices include workstations, personal computers, and network computing devices. A workstation or desktop personal computer does not have many resource restrictions when connected to a fixed network.
+- *Centralised Computing* - System where all processing and data storage is handled by a single, central device or system which is responsible for processing all requests and managing all data, and all other devices in the system are connected to it.
+  - Used in Traditional Mainframe (data repository, or hub connected through terminals) systems, Network Servers
+- *Decentralised Computing* - In decentralized systems, every node makes its own decision. The final behavior of the system is the aggregate of the decisions of the individual nodes. There is no single entity that manages request
+  - Blockchain, Decentralized databases – Entire databases split into parts, Cryptocurrency
+- *Distributed Computing* - It is a collection of computer programs that utilize computational resources across multiple, separate computation nodes to achieve a common, shared goal. It relies on separate nodes to communicate and synchronize over a common network.
+  - SOA-based systems(service-oriented-architecture) {CRM, ERP}, Multiplayer online games
+- *Edge Computing* - It allows smart applications and devices to respond to data almost at the same time which is important in terms of business ad self-driving cars.It has the ability to process data without even putting it on a public cloud, this ensures full security.
+  - Use Cases - In-hospital patient monitoring, Virtualised radio networks and 5G (vRAN), Cloud gaming
+39. **Port Forwarding** - It allows computers or services in private networks to connect over the internet with other public or private computers or services.
+    ![portForwarding_en](https://github.com/raunakkk21/Keywords/assets/143111163/46fcafb6-c363-4d02-8690-a177089e592a)
+    
+40. **Cluster** - a group of inter-connected computers or hosts that work together to support applications and middleware (e.g. databases). each computer/host referred as node and each node is assigned same task which help in efficiency and load balancing
+41. **Design Patterns** - A design pattern systematically names, motivates, and explains a general design that addresses a recurring design problem in object-oriented systems. It describes the problem, the solution, when to apply the solution, and its consequences. It also gives implementation hints and examples.
+
+
+
+
+
+
+
+
+
+
+  
 

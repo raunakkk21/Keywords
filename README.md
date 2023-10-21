@@ -195,7 +195,159 @@
     |**REST is a set of architectural constraints, not a protocol or a standard. API developers can implement REST in a variety of ways.**|
     |------|
     |When a client request is made via a RESTful API, it transfers a representation of the state of the resource to the requester or endpoint. This information, or representation, is delivered in one of several formats via HTTP: JSON (Javascript Object Notation), HTML, XLT, Python, PHP, or plain text.|
-3
+42. **HTTPS 1** vs **HTTP 2**
+
+  | HTTP/1.1  | HTTP/2 |
+  |--------------|--------------|
+| It works on the textual format.	 | It works on the binary protocol. |
+| There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	 | It allows multiplexing so one TCP connection is required for multiple requests. |
+| It uses requests resource Inlining for use getting multiple pages	  | It uses PUSH frame by server that collects all multiple pages  |
+| It compresses data by itself.	  | It uses HPACK for data compression. |
+
+43. **etcd** - It is an open source distributed key-value store used to hold and manage the critical information that distributed systems need to keep running. Most notably, it manages the configuration data, state data, and metadata for Kubernetes, the popular container orchestration platform.
+44. **Ceph** - Ceph is an open-source software-defined storage platform that provides object, block, and file storage. It's designed to be self-healing and self-managed, and it can run on any hardware Ceph is maintained by RedHat. It's built on a common distributed cluster foundation. The clusters are designed to run on any hardware with the help of an algorithm called CRUSH (Controlled Replication Under Scalable Hashing).
+45. **OvS** - Open vSwitch (OVS) is an open-source, virtual multilayer switch that provides a switching stack for hardware virtualization environments. OVS is a software switch that turns a Linux server into a switch. It's designed to enable network automation through programmatic extension.
+46. **Rancher** - Rancher is an open-source software platform that allows organizations to run containers in production. Rancher can be used to:
+- Run containers in production
+- Operate Docker in production
+- Deploy and run clusters anywhere and on any provider
+- Divide a cluster into separate "virtual clusters" that each have their own access control and resource quotas
+47. **Cilium** - Cilium is a highly scalable Kubernetes Container Network Interface (CNI). It provides cloud-native networking connectivity, security, and observability for container-based workloads, such as in Kubernetes and Docker. It provides visibility and control over network traffic, and offers advanced security features.
+48. **Proxmox** - Proxmox Virtual Environment (Proxmox VE) is an open-source server management platform for enterprise virtualization.Proxmox VE offers the ability to: 
+- Manage two virtualization technologies: KVM for virtual machines and LXC for containers
+- Manage virtual server (VPS) technology with the Linux OpenVZ and KVM technologies
+- Install different operating systems on a single computer or a cluster built by grouping computers together
+49. **XEN** - Xen is a free and open-source hypervisor that allows multiple operating systems to run on the same hardware at the same time. Xen inserts a virtualization layer between the system hardware and the virtual machines. Xen is a type-1 hypervisor, which means it can be installed directly on hardware without the need for a host operating system. It controls, monitors, and manages hardware, peripheral, and I/O resources directly.
+  - AWS is believed to be the only major service provider working at scale that uses Xen.
+
+**APIs**
+![6b437484-1fd8-4b59-ba05-46bb3352b053_2904x2559](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/80e009f8-092b-4c12-883c-b2513eb92b78)
+
+**LXC** - 
+LXC stands for Linux Containers. It's an open-source container platform that allows users to create and run multiple isolated Linux virtual environments (VEs) on a single control host. LXC uses a single Linux kernel to run these isolated systems, or containers. 
+
+50. **GreenField** vs **Brownfield Application**
+
+| Greenfield | Brownfield|
+|--------------|--------------|
+| greenfield applications are applications that are not yet made or are in the early stages of development | brownfield applications are existing applications |
+| Greenfield applications are new developments with no prior work done that poses constraints on the solution. | Brownfield applications are existing applications that utilize previously developed land to make better use of existing sites.  |
+
+51. **Web3 Decentralisation** - Web3 is a decentralized version of the internet that allows users to own their own data. It's also known as the decentralized web or the third generation of the internet. 
+- Blockchain, which is a decentralized digital ledger of transactions that uses cryptography to secure and verify each transaction
+- Decentralized applications (dApps), which are interconnected blockchain-based applications that enable users to interact with each other without the need for intermediaries
+Web3 is designed to be: 
+- Permissionless (no centralized gatekeepers)
+- Trustless (no need to place trust in a third party)
+- Open to all (little-to-no censorship of individuals/ideas)
+52. **Digital Identities** - Digital identities allow people to identify themselves and facilitate transactions in the digital world. They can be set up once and reused whenever someone is asked to prove their identity. 
+Digital identities can raise important questions about: 
+- The balance between privacy and security
+- The rights of individuals to control their own data
+- The impact on social relationships
+53. **VectorDB** - VectorDB is a Python package that stores and retrieves text using chunking, embedding, and vector search techniques. It's designed for use cases where low latency is essential. 
+VectorDB provides an easy-Hyper-converged infrastructure (HCI) is a software-defined IT infrastructure that combines servers and storage into a single cluster. HCI uses intelligent software to create flexible building blocks that replace legacy infrastructureto-use interface for: 
+- Saving, searching, and managing textual data with associated metadata
+- Managing, querying, and retrieving high-dimensional vector data efficiently
+- Working with vector data just like how you work with regular Python objects
+- A comprehensive suite of CRUD (Create, Read, Update, Delete) operations
+- Robust scalability options
+54. **eBPF** - BPF stands for Extended Berkeley Packet Filter. It's a lightweight virtual machine that runs sandboxed programs in a Linux kernel. eBPF allows programs to run without modifying the kernel source code or installing any additional modules. 
+It's used to: 
+- Extend the capabilities of the kernel
+- Control, monitor, and analyze system behavior
+- Attach small, efficient programs to various kernel hooks
+- Run programs upon triggering of an event
+55. **HCI** - Hyper-converged infrastructure (HCI) is a software-defined IT infrastructure that combines servers and storage into a single cluster. HCI uses intelligent software to create flexible building blocks that replace legacy infrastructure.
+  HCI includes: 
+- Virtualized computing (a hypervisor)
+- Software-defined storage
+- Virtualized networking (software-defined networking)
+- Direct-attached storage media (HDDs, SSDs, NVMe)
+HCI unifies the datacenter stack elements into an abstracted layer of available IT resources.
+56. **DHCP** - Dynamic Host Configuration Protocol (DHCP) is a network protocol that automatically assigns IP addresses to devices on a network. DHCP uses a client-server architecture to provide configuration information such as: IP address, Default route, DNS server addresses, Subnet mask, Default gateway.
+**Consensus** - Consensus is a protocol designed to achieve reliability in a network involving multiple users or nodes.It includes:
+- Agreement: All correct processes must agree on the same value.
+- Weak validity: For each correct process, its output must be the input of some correct process.
+- trong validity: If all correct processes receive the same input value, then they must all output that value.
+- Termination: All processes must eventually decide on an output value
+**PAXOS** - The Paxos algorithm provides a mechanism that enables distributed systems to continue working in a predictable way in the event of network partitioning or server failures.
+57. **Terraform** - Terraform is an open-source tool that automates infrastructure tasks. It's used by DevOps teams to provision cloud resources.
+Terraform allows users to: 
+- Build infrastructure through code
+- Manage infrastructure, platforms, and services
+- Build, change, and version infrastructure safely and efficiently
+- Automatically manage configuration, plugins, and state
+- Add all config files into a VCS to safely manage and track changes
+58. **Replication** - it involves sharing of  information to ensure consistency between redundant resources, such as software or hardware components, to improve reliability, fault-tolerance, or accessibility.
+- Data replication, where the same data is stored on multiple storage devices
+
+### ▶️ NETWORK
+58. **TAP** - A network tap (TAP) is a hardware device that allows you to monitor and access data that is transmitted over a network. TAP stands for "Traffic Access Point" or "Test Access Point".
+Network taps are typically used in network security applications to: 
+- Monitor traffic
+- Identify malicious activity or security threats
+- Enable monitoring and analysis without interrupting data transmission
+59. **CNI** - Container Network Interface (CNI) is a framework that configures networking resources dynamically.It enables communication and connectivity between containers and external networks. 
+CNI uses a group of libraries and specifications written in Go. The plugin specification defines an interface for: 
+- Configuring the network
+- Provisioning IP addresses
+- Maintaining connectivity with multiple hosts
+60. **Flannel** - Flannel is an open source CNI plugin that: 
+- Creates and manages subnets
+- Assigns a separate subnet to each Kubernetes cluster node
+- Assigns an internal IP address
+61. **Overlay** - Overlay networking is a method of using software to create layers of network abstraction on top of a physical network. These layers can be used to run multiple separate, virtualized network layers.
+The purpose of an overlay network is to: 
+- Add missing functionality without a complete network redesign
+- Provide new applications or security benefits
+- Deploy flexible services based on ever-changing connectivity and mobility demands of the endpoints and applications
+62. **Tunnel** - a tunnel is a connection between two computer networks that allows data to be sent from one network to another through an encrypted link. Tunneling works by encapsulating packets, or wrapping packets inside of other packets. 
+Tunneling is used to: 
+- Transfer data securely from one network to another
+- Transport data across a network using protocols that are not supported by that network
+- Allow private network communications to be sent across a public network, such as the Internet
+- Have data authenticated, or authenticated and encrypted
+63. **TUN** - TUN stands for network TUNnel. It's a virtual interface that simulates a network layer device. TUN operates on layer 3 of the OSI model
+TUN can tunnel data packets of varied nature, including: 
+- Raw TCP - Raw TCP/IP is an insecure communication protocol. It's used to: 
+  - Open a TCP socket-level connection over Port 9100
+  - Stream a print-ready file to the printer input buffer
+- UDP - a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups.
+- SCTP -  a transport-layer protocol that ensures reliable, in-sequence transport of data
+- Encapsulated packets such as PPP, PPTP, AH/IPSEC
+64. **OSI Model**
+  ![osi model](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/fd698805-5ade-4644-b014-ca4c762b3fc6)
+65. **Load Balancing Algorithms**
+  ![lb-algorithms](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/4432276d-5f25-4630-a6e0-ac69a6112167)
+66. **RAFT** - Raft is a consensus algorithm.
+  Use Cases Of Raft:
+  - CockroachDB - used in replication layer
+  - etcd -
+    - replicated log - provides append-only storage of log entries(new data can be appended to the storage, but where existing data is immutable)
+**Hyperscale** - Hyperscale is a computing architecture that can scale as demand increases. Hyperscale cloud computing is a multi-tenant platform that allows users to access computing resources on-demand. These resources are available globally over the internet, enabling users to provision and scale resources instantly.
+**Protobuf** - Protocol Buffers (Protobuf) is a free and open-source data format developed by Google. It's used to serialize structured data for storage and communication over a network. Protobuf is great for the following reasons: 
+- Low data volume
+- Persistence
+- Backward-compatible serialization
+67. **KubeVirt** - KubeVirt is an open-source project that allows virtual machines (VMs) and containerized workloads to coexist within Kubernetes clusters.
+  KubeVirt allows you to: 
+- Provision, manage, and control VMs simultaneously with container resources
+- Integrate with existing Kubernetes deployments seamlessly
+- Run VMs within regular Kubernetes pods
+- Access standard pod networking and storage
+- Manage VMs using standard Kubernetes tools such as kubectl
+- Run full virtual machines on Kubernetes alongside regular containers
+68. **Libvert** - Open SOurce developed by Redhat to manage virtualization. It can be used to manage
+  - KVM - Open Source Hypervisor for Linux
+  - XEN - Type I Hypervisor currently developed by Linux Foundation
+  - ESXi (From VMware)
+**PAT** - Port Address Translation (PAT) is a network device feature that translates TCP or UDP communications between hosts on a private network and hosts on a public network. PAT allows a single public IP address to be used by many hosts on the private network. PAT works by: 
+- Assigning each device a unique port number
+- Routing incoming traffic accordingly
+**IaC** - Infrastructure as Code (IaC) is a DevOps practice that uses code to manage and provision infrastructure. It allows developers and operations teams to automatically manage and provision infrastructure through code.
+**HCL** - HCL stands for HashiCorp Configuration Language. It's a configuration language that's designed to be both human and machine-readable. It's used in infrastructure automation to help developers write and deploy cloud resources across multiple platforms.
+
 
 
     

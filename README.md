@@ -1,45 +1,50 @@
 # **BASIC KEYWORDS**
-![learn_cisheader](https://github.com/raunakkk21/Keywords/assets/143111163/f254edf9-d081-475c-9629-9cc407bc42e0)
-
 1.**CISC** - Complex Instruction Set Computer- Closed source - intel, AMD  
 2.**RISC** - Reduced Instruction Set Computer- Closed source - ARM  
 3.**RISC-V** - It is an ISA based on reduced instruction set computer (RISC) principles. It is Open Source unlike the parent RISC.  
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/0d67efa3-3409-4511-bebf-582bb1253c3f" width="500" height="300">
+
 4.**Kernel** - programm to manage communication between software i.e. user-level applications and hardware i.e., CPU and disk memory
 -  Kernel Programming Languages
    - C++
    - Rust
    - C
+     
+ User space and Kernal space  
+ --------  
+ 
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/86aac38c-8d47-497d-a724-57b51decdb3f" height="300" width="500">
 
-| Kernel spaace | User space |
-| -------------- |------------|
-|System interface | Application code|
-|Generic services | C Library|
-|Device drivers | - |   
+
+  
 5. **DNS** - turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.  
 - Working of DNS
-  
-  ![DNS-record -Main-types-of-DNS-Records](https://github.com/raunakkk21/Keywords/assets/143111163/737e32d0-1775-472f-900a-213baf0d8996)
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/8d56c5ba-3f89-47f4-9950-3aaa3fad5b7a" height="300" widht="500">
 
-6.**ISA** - Instruction Set Architecture - hardware interaction - input-outputs, registers, data types  
-7.**IP Addresss**- Internet Protcol (IPv4,IPv6)    
-- Public IP - B/W Internet and Device, assigned by internet service provider to the device  
-- Private IP - in a private network [starts with 10., 172.16, 192.168  
-- Local IP - [starts with 127.00.0
-9.**Port No.** - a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.[for http - 80]
-  - SSH(Secure Shell) - 22
-  -  SMTP - 25
-    - Telnet - 23
-    -  https - 443
+6.**ISA** - Instruction Set Architecture is group of commands that processor can perform to execute programs instructions and acts as an interface beteween hardware and 
+            software  i.e-input-outputs, registers, data types  
+7.**IP Addresss**- Internet Protcol is a unique label that identifies a device or network that connects internet (IPv4,IPv6)    
+- Public IP - B/W Internet and Device, assigned by internet service provider to the device 
+- Private IP(local IP) - non unique
 
-10.**SSL**- Secure Socket layer- IP Address + Port number   
-11.**Seven Layers Of OSI**(Open Systems Interconnection)  
-- L7 - Application  
-- L6 - Presentation  
-- L5 - Cryptography  
-- L4 - Port Number(16 Bits)  
-- L3 - IP Address (32 Bits) : Router  
-- L2 - Hardware Address - NIC, MAC Address(48 Bits) : Ethernet :SWITCH  
-- L1 - Digital (1 and 0)
+ ![1624370268750](https://github.com/raunakkk21/Keywords/assets/143111163/2da39014-6169-4b08-9247-e8d66fef8e6d)
+
+
+9.**Port No.** -It is a 16-bit integer that identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server
+- SSH(Secure Shell) -Protects data form being stolen or attacked and provide password with public key authentication. (Port number- 22)
+    
+-  SMTP(Simple mail transfer protocol)-Authenticates and directs transfer of email. (Port number-25)
+    
+-  Telnet(Teletype network)-Standard tcp/ip protocol for virtual terminal service,no security(Port number-23)
+     
+-  https(Secure hypertext protocol) -Uses encryption algorithm and comes with security feature.(Port number-443)
+
+10.**SSL**- Secure Socket layer- IP Address + Port number(used to authenticate identity of a website)  
+11.**Seven Layers Of OSI**(Open Systems Interconnection)   
+The Open Systems Interconnection (OSI) model is a conceptual framework that describes how information moves between software applications on different computers.   
+
+ <img src="https://github.com/raunakkk21/Keywords/assets/143111163/d3c9fc11-bf93-488f-93e5-12b4d32b7423" widht="600" height="400">
+
 12. **Switch** - connects devices in a network to each other, enabling them to talk by exchanging data packets.
 13. **Virtual Machine** - created by using Hypervisor
 14. **FPGA** - Field Programmable Gate Arrays  - Configurede after manufacturing

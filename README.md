@@ -81,30 +81,32 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 
 | Type I  | Type II |
 | ------------- | ------------- |
-| Native (bare metal)  | Hosted  |
-| Directly on hardware and runs guest OS  | Runs on previously installed OS  |
-| acts as light weight as it runs directly  | runs as software like other computer programs  |
+| Native (bare metal hypervisor)  | Hosted hypervisor  |
+| Installed directly on hardware and runs guest OS  | Runs on previously installed OS/installed on top of a os |
+| Acts as light weight as it runs directly  | Runs as software like other computer programs  |  
+----------
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/8ecf1b38-e2b2-4d88-a1e8-7c9c215d837f" height="400" width="700">
 
-29. **BareMetal**- Fresh Servers
-30. **IAM** - Identity and access management
-31. **nginx** - proxy server
-32. **apache** - client server - uses httpd(d stands for dameon:continuously runs in background) that creates a pool of child processes or threads to handle requests.
-33. **ASICs** - *(Application-Specific Integrated Circuits)* are computer chips that combine several different circuits all on one chip – it's a "system-on-a-chip" (SoC) design – allowing it to be custom programmed to combine several related functions that together carry out a specific overall task.
-34. **UDP** - User Datagram Protocol, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups
-35. **Packets** - a packet is a small segment of a larger message. Data sent over computer networks, such as the Internet, is divided into packets, recombined by te client computer
-36. **Load Balance** - Load balancing is the method of distributing network traffic equally across a pool of resources that support an application.
-37. **Server** - a computer program or device that provides a service to another computer program and its user, also known as the client.
+
+31. **BareMetal**- Bare metal refers to a computer system without an operating system (OS) or installed applications. It's a computer's hardware assembly, structure, and components that is installed with either the firmware or basic input/output system (BIOS) software utility or no software at all.,
+32. **IAM** - Identity and access management(It's a framework that uses business processes, policies, and technologies to manage digital identities.)
+33.**Nginx** - Nginx is open-source web server software that can also perform reverse proxy, load balancing, email proxy, and HTTP cache services.Nginx is designed to handle a high number of connections simultaneously(proxy server).
+34. **Apache** - (Client server) - uses httpd(d stands for dameon:continuously runs in background) that creates a pool of child processes or threads to handle requests.
+35. **ASICs** - *(Application-Specific Integrated Circuits)* are computer chips that combine several different circuits all on one chip – it's a "system-on-a-chip" (SoC) design – allowing it to be custom programmed to combine several related functions that together carry out a specific overall task.
+36. **UDP** - User Datagram Protocol(Connectionless oreinted protocol), is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback,gaming or DNS lookups,but does not guarantee that data is received at other end.<img src="https://github.com/raunakkk21/Keywords/assets/143111163/a4c2459c-6989-4d08-9d4f-047797426129" height="400" widht="600">
+
+37. **Packets** -A packet is a small segment of a larger message. Data sent over computer networks, such as the Internet, is divided into packets, recombined by te client computer.
+38. **Load Balance** - Load balancing is the method of distributing network traffic equally across a pool of resources that support an application.<img src="https://github.com/raunakkk21/Keywords/assets/143111163/e35f8f3b-a4f4-4712-870b-9401bbb3412a" height="350" width="550">
+
+39. **Server** - A computer or system that provides a service to another computer program and its user, also known as the client.
 - *Client Server* - A relationship in which one program, the client, requests a service or resource from another program, the server. **EX** - email, network printing, and the World Wide Web
 - *Proxy Server* - A server that acts as an intermediary between the request made by clients **EX** - an HTTP proxy intercepts web access, and an SMTP proxy intercepts email
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/a1a9cb60-a38f-44f9-946b-4b5d4acdc3ae" height="300" width="500">
 
-| Forward Proxy  | Reverse Proxy |
-| ------------- | ------------- |
-| It accepts connections from computers on a private network and forwards those requests to the public internet.   | Public access point for users to access data and information that is stored on servers that reside in a private, isolated subnet.  |
-| Acts as single point of exit for subnet users who want to access resources outside of their private network.  | Acts as a single point of entry for external systems to access resources on a private subnet.  |
-| Banks and insurance companies, and government agencies use it to protects corporate computers from outside attacks from this isolation  | Large websites and content delivery networks to balance the load between internal servers.  |     
+40.Forward proxy and Reverse proxy  
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/00049311-5000-41b7-916a-4767ca561faa)" height="450" width="700">  
 
-![maxresdefault](https://github.com/raunakkk21/Keywords/assets/143111163/30d78488-3847-4c98-b2ed-39c0479bbbe7)  
-# Cloud Concepts
+## Cloud Concepts
 ### Use Cases
 1. Fraud Detection and Prevention
 2. Personalized Treatments

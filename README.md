@@ -2,7 +2,7 @@
 1.**CISC** - Complex Instruction Set Computer- Closed source - intel, AMD  
 2.**RISC** - Reduced Instruction Set Computer- Closed source - ARM  
 3.**RISC-V** - It is an ISA based on reduced instruction set computer (RISC) principles. It is Open Source unlike the parent RISC.  
-<img src="https://github.com/raunakkk21/Keywords/assets/143111163/0d67efa3-3409-4511-bebf-582bb1253c3f" width="500" height="300">
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/0d67efa3-3409-4511-bebf-582bb1253c3f" width="500" height="300" >
 
 4.**Kernel** - programm to manage communication between software i.e. user-level applications and hardware i.e., CPU and disk memory
 -  Kernel Programming Languages
@@ -104,7 +104,8 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 <img src="https://github.com/raunakkk21/Keywords/assets/143111163/a1a9cb60-a38f-44f9-946b-4b5d4acdc3ae" height="300" width="500">
 
 40.Forward proxy and Reverse proxy  
-<img src="https://github.com/raunakkk21/Keywords/assets/143111163/00049311-5000-41b7-916a-4767ca561faa)" height="450" width="700">  
+<img width="518" alt="Screenshot 2023-10-23 180847" src="https://github.com/raunakkk21/Keywords/assets/143111163/d83a814d-eb0c-4293-86df-8efd754acf09">
+
 
 ## Cloud Concepts
 ### Use Cases

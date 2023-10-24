@@ -206,14 +206,23 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 - *Edge Computing* - It allows smart applications and devices to respond to data almost at the same time which is important in terms of business ad self-driving cars.It has the ability to process data without even putting it on a public cloud, this ensures full security.
   - Use Cases - In-hospital patient monitoring, Virtualised radio networks and 5G (vRAN), Cloud gaming
 39. **Port Forwarding** - It allows computers or services in private networks to connect over the internet with other public or private computers or services.
-    ![portForwarding_en](https://github.com/raunakkk21/Keywords/assets/143111163/46fcafb6-c363-4d02-8690-a177089e592a)
+    
+    <img src="https://github.com/raunakkk21/Keywords/assets/143111163/ac19e987-cc87-4cf8-87b5-127744badca6)" width="600" height="400">
     
 40. **Cluster** - a group of inter-connected computers or hosts that work together to support applications and middleware (e.g. databases). each computer/host referred as node and each node is assigned same task which help in efficiency and load balancing
 41. **Design Patterns** - A design pattern systematically names, motivates, and explains a general design that addresses a recurring design problem in object-oriented systems. It describes the problem, the solution, when to apply the solution, and its consequences. It also gives implementation hints and examples.
 42. REST API
-    |**REST is a set of architectural constraints, not a protocol or a standard. API developers can implement REST in a variety of ways.**|
+    |**REST(Represetational state transfer) is a set of architectural constraints, not a protocol or a standard. API developers can implement REST in a variety of ways.**|
     |------|
     |When a client request is made via a RESTful API, it transfers a representation of the state of the resource to the requester or endpoint. This information, or representation, is delivered in one of several formats via HTTP: JSON (Javascript Object Notation), HTML, XLT, Python, PHP, or plain text.|
+    |REST APIs allow clients to request resources from a server. The server then returns the current state of the resource in a standardized representation. REST APIs can be used to make data, content, algorithms, media, and other digital resources available through web URLs.|
+    <img src="https://github.com/raunakkk21/Keywords/assets/143111163/c645edc4-a75d-40c6-9253-337a67c29170" height="300" width="500">
+   <img src="https://github.com/raunakkk21/Keywords/assets/143111163/6b3df0cc-3984-4ec6-893b-0820ca906b99" height="300" width="500">
+
+# SOAP based and REST based web services  
+<img width="711" alt="Screenshot 2023-10-24 204253" src="https://github.com/raunakkk21/Keywords/assets/143111163/835b46db-9c9a-43bd-9e1f-736a5a5a8aa8">
+
+
 42. **HTTPS 1** vs **HTTP 2**
 
   | HTTP/1.1  | HTTP/2 |
@@ -221,39 +230,62 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 | It works on the textual format.	 | It works on the binary protocol. |
 | There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	 | It allows multiplexing so one TCP connection is required for multiple requests. |
 | It uses requests resource Inlining for use getting multiple pages	  | It uses PUSH frame by server that collects all multiple pages  |
-| It compresses data by itself.	  | It uses HPACK for data compression. |
+| It compresses data by itself.	  | It uses HPACK(a compression format that eliminates redundant header fields in HTTP/2) for data compression. |   
+|Multiple TCP connections are used | Single TCP connection is used.|  
 
-43. **etcd** - It is an open source distributed key-value store used to hold and manage the critical information that distributed systems need to keep running. Most notably, it manages the configuration data, state data, and metadata for Kubernetes, the popular container orchestration platform.
-44. **Ceph** - Ceph is an open-source software-defined storage platform that provides object, block, and file storage. It's designed to be self-healing and self-managed, and it can run on any hardware Ceph is maintained by RedHat. It's built on a common distributed cluster foundation. The clusters are designed to run on any hardware with the help of an algorithm called CRUSH (Controlled Replication Under Scalable Hashing).
-45. **OvS** - Open vSwitch (OVS) is an open-source, virtual multilayer switch that provides a switching stack for hardware virtualization environments. OVS is a software switch that turns a Linux server into a switch. It's designed to enable network automation through programmatic extension.
-46. **Rancher** - Rancher is an open-source software platform that allows organizations to run containers in production. Rancher can be used to:
+<img width="750" height="450" src="https://github.com/raunakkk21/Keywords/assets/143111163/56338466-97df-4fcf-a5cd-b822c73e8632">
+
+
+43. **Etcd**
+- It is an open source distributed key-value store used to hold and manage the critical information that distributed systems need to keep running.
+- Most notably, it manages the configuration data, state data, and metadata for Kubernetes, the popular container orchestration platform.
+- *RAFT*-Raft is a consensus algorithm that's used in Kubernetes to ensure consistency and fault tolerance.Raft is used in Kubernetes' backing store, which is based on a distributed key-value store called etcd.
+- <img height="250" width="500" src="https://github.com/raunakkk21/Keywords/assets/143111163/342dcdd1-1ce0-4947-a159-569a2bd69d43">
+
+45. **Ceph(cephalopod)** - Ceph is an open-source software-defined storage platform that provides object, block, and file storage. It's designed to be self-healing and self-managed, and it can run on any hardware Ceph is maintained by RedHat. It's built on a common distributed cluster foundation. The clusters are designed to run on any hardware with the help of an algorithm called CRUSH (Controlled Replication Under Scalable Hashing).
+46. **OvS** - Open vSwitch (OVS) is an open-source, virtual multilayer switch that provides a switching stack for hardware virtualization environments. OVS is a software switch that turns a Linux server into a switch. It's designed to enable network automation through programmatic extension.Open vSwitch is well suited to function as a virtual switch in VM environments
+47. **Rancher** - Rancher is an open-source Kubernetes management tool that allows users to deploy and run clusters anywhere and on any provider.
 - Run containers in production
 - Operate Docker in production
 - Deploy and run clusters anywhere and on any provider
 - Divide a cluster into separate "virtual clusters" that each have their own access control and resource quotas
-47. **Cilium** - Cilium is a highly scalable Kubernetes Container Network Interface (CNI). It provides cloud-native networking connectivity, security, and observability for container-based workloads, such as in Kubernetes and Docker. It provides visibility and control over network traffic, and offers advanced security features.
-48. **Proxmox** - Proxmox Virtual Environment (Proxmox VE) is an open-source server management platform for enterprise virtualization.Proxmox VE offers the ability to: 
-- Manage two virtualization technologies: KVM for virtual machines and LXC for containers
+47. **Cilium** - Cilium is a highly scalable Kubernetes Container Network Interface (CNI). It provides cloud-native networking connectivity, security, and observability for container-based workloads, such as in Kubernetes and Docker. It provides visibility and control over network traffic, and offers advanced security features.Its features includes:
+- Encryption
+- Load balancing
+- Distributed firewalling
+- Defining network security policies
+- Inter-node traffic control
+- Policy enforcement modes
+48. **Proxmox** - Proxmox Virtual Environment (Proxmox VE) is an open-source server management platform for enterprise virtualization.It's a hosted hypervisor that can run operating systems including Linux and Windows on x64 hardware.
+Proxmox VE offers the ability to: 
+- Manage two virtualization technologies: KVM(Kernal based VM) for virtual machines and LXC(Linux containers) for containers
 - Manage virtual server (VPS) technology with the Linux OpenVZ and KVM technologies
 - Install different operating systems on a single computer or a cluster built by grouping computers together
-49. **XEN** - Xen is a free and open-source hypervisor that allows multiple operating systems to run on the same hardware at the same time. Xen inserts a virtualization layer between the system hardware and the virtual machines. Xen is a type-1 hypervisor, which means it can be installed directly on hardware without the need for a host operating system. It controls, monitors, and manages hardware, peripheral, and I/O resources directly.
-  - AWS is believed to be the only major service provider working at scale that uses Xen.
+49. **XEN** - Xen is an open-source  hypervisor that allows multiple virtual machines to run on a single physical computer virtual machines.Xen is a Type 1 or bare-metal hypervisor. It runs directly on the system hardware, inserting a virtualization layer between the hardware and the virtual machines. This allows Xen to dynamically allocate logical computing resources to any guest operating system.
+- Xen is used by some of the largest hyperscale clouds, including: 
+  - Amazon Web Service
+  - Tencent
+  - Alibaba Cloud
+  - Oracle Cloud
+  - Rackspace's public cloud
+  - IBM cloud
+ 
 
-**APIs**
-![6b437484-1fd8-4b59-ba05-46bb3352b053_2904x2559](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/80e009f8-092b-4c12-883c-b2513eb92b78)
+# **APIs**  
+- An API is a software intermediary that allows two applications to talk to each other. It defines how a developer should request services from an operating system (OS) or other application, and expose data within different contexts and across multiple channels
+<img src="https://github.com/mohitpoonia/mohitpoonia/assets/142895350/80e009f8-092b-4c12-883c-b2513eb92b78" height="400" width="700">
 
-**LXC** - 
+# **LXC** 
 LXC stands for Linux Containers. It's an open-source container platform that allows users to create and run multiple isolated Linux virtual environments (VEs) on a single control host. LXC uses a single Linux kernel to run these isolated systems, or containers. 
 
 50. **GreenField** vs **Brownfield Application**
 
-| Greenfield | Brownfield|
-|--------------|--------------|
-| greenfield applications are applications that are not yet made or are in the early stages of development | brownfield applications are existing applications |
-| Greenfield applications are new developments with no prior work done that poses constraints on the solution. | Brownfield applications are existing applications that utilize previously developed land to make better use of existing sites.  |
+|![greenfield-brownfield-comparison-table](https://github.com/raunakkk21/Keywords/assets/143111163/02d86fa7-c684-45a8-afee-a6414a5b0ea0)|  
 
-51. **Web3 Decentralisation** - Web3 is a decentralized version of the internet that allows users to own their own data. It's also known as the decentralized web or the third generation of the internet. 
-- Blockchain, which is a decentralized digital ledger of transactions that uses cryptography to secure and verify each transaction
+51. **Web3 Decentralisation** - Web3 is a decentralized version of the internet that allows users to own their own data,that uses blockchain technology. It's also known as the decentralized web or the third generation of the internet.
+    <img width="500" alt="Screenshot 2023-10-24 222603" src="https://github.com/raunakkk21/Keywords/assets/143111163/fb6d68b8-c2cb-4732-9787-8a6e160149ae">
+
+- Blockchain, which is a decentralized digital ledger of transactions that uses cryptography to secure and verify each transaction.
 - Decentralized applications (dApps), which are interconnected blockchain-based applications that enable users to interact with each other without the need for intermediaries
 Web3 is designed to be: 
 - Permissionless (no centralized gatekeepers)
@@ -261,10 +293,10 @@ Web3 is designed to be:
 - Open to all (little-to-no censorship of individuals/ideas)
 52. **Digital Identities** - Digital identities allow people to identify themselves and facilitate transactions in the digital world. They can be set up once and reused whenever someone is asked to prove their identity. 
 Digital identities can raise important questions about: 
-- The balance between privacy and security
-- The rights of individuals to control their own data
-- The impact on social relationships
-53. **VectorDB** - VectorDB is a Python package that stores and retrieves text using chunking, embedding, and vector search techniques. It's designed for use cases where low latency is essential. 
+- The balance between privacy and security.
+- The rights of individuals to control their own data.
+- The impact on social relationships.
+53. **VectorDB** - VectorDB is a Python library that stores, searches, and manages text data. It uses chunking, embedding, and vector search techniques. VectorDB is designed for use cases where low latency is essential.
 VectorDB provides an easy-Hyper-converged infrastructure (HCI) is a software-defined IT infrastructure that combines servers and storage into a single cluster. HCI uses intelligent software to create flexible building blocks that replace legacy infrastructureto-use interface for: 
 - Saving, searching, and managing textual data with associated metadata
 - Managing, querying, and retrieving high-dimensional vector data efficiently
@@ -277,7 +309,7 @@ It's used to:
 - Control, monitor, and analyze system behavior
 - Attach small, efficient programs to various kernel hooks
 - Run programs upon triggering of an event
-55. **HCI** - Hyper-converged infrastructure (HCI) is a software-defined IT infrastructure that combines servers and storage into a single cluster. HCI uses intelligent software to create flexible building blocks that replace legacy infrastructure.
+55. **HCI** - Hyper-converged infrastructure (HCI) is a software-defined IT infrastructure that virtualizes all the elements of conventional "hardware-defined" systems. 
   HCI includes: 
 - Virtualized computing (a hypervisor)
 - Software-defined storage
@@ -285,24 +317,31 @@ It's used to:
 - Direct-attached storage media (HDDs, SSDs, NVMe)
 HCI unifies the datacenter stack elements into an abstracted layer of available IT resources.
 56. **DHCP** - Dynamic Host Configuration Protocol (DHCP) is a network protocol that automatically assigns IP addresses to devices on a network. DHCP uses a client-server architecture to provide configuration information such as: IP address, Default route, DNS server addresses, Subnet mask, Default gateway.
-**Consensus** - Consensus is a protocol designed to achieve reliability in a network involving multiple users or nodes.It includes:
+  <img width="662" alt="Screenshot 2023-10-24 234149" src="https://github.com/raunakkk21/Keywords/assets/143111163/4e2fd635-eb0c-4350-bc1b-b28a66aa2f23">
+
+57.**Consensus** - Consensus is a protocol designed to achieve reliability in a network involving multiple users or nodes.It includes:
 - Agreement: All correct processes must agree on the same value.
 - Weak validity: For each correct process, its output must be the input of some correct process.
 - trong validity: If all correct processes receive the same input value, then they must all output that value.
 - Termination: All processes must eventually decide on an output value
-**PAXOS** - The Paxos algorithm provides a mechanism that enables distributed systems to continue working in a predictable way in the event of network partitioning or server failures.
-57. **Terraform** - Terraform is an open-source tool that automates infrastructure tasks. It's used by DevOps teams to provision cloud resources.
-Terraform allows users to: 
+- <img src="https://github.com/raunakkk21/Keywords/assets/143111163/90732764-f6a8-4755-b490-8f0177e002da" height="400" width="600">
+
+58.**PAXOS** - The Paxos consensus algorithm is a family of algorithms that can be used to achieve consensus in a distributed system.Paxos works in three phases:  
+- The first two phases build consensus around a value.
+- The last phase communicates that consensus to the remaining replicas.
+59. **Terraform** -Terraform is an open-source, cloud-agnostic software tool that allows engineers to define and provision infrastructure in code. It's primarily used by DevOps teams to automate infrastructure tasks, such as provisioning cloud resources.
+  <img width="380" alt="Screenshot 2023-10-24 235743" src="https://github.com/raunakkk21/Keywords/assets/143111163/034e2de5-60c5-4ce3-b8be-d8a947ddbe6a">
+
 - Build infrastructure through code
 - Manage infrastructure, platforms, and services
 - Build, change, and version infrastructure safely and efficiently
 - Automatically manage configuration, plugins, and state
 - Add all config files into a VCS to safely manage and track changes
-58. **Replication** - it involves sharing of  information to ensure consistency between redundant resources, such as software or hardware components, to improve reliability, fault-tolerance, or accessibility.
+60. **Replication** - it involves sharing of  information to ensure consistency between redundant resources, such as software or hardware components, to improve reliability, fault-tolerance, or accessibility.
 - Data replication, where the same data is stored on multiple storage devices
 
 ### ▶️ NETWORK
-58. **TAP** - A network tap (TAP) is a hardware device that allows you to monitor and access data that is transmitted over a network. TAP stands for "Traffic Access Point" or "Test Access Point".
+ **TAP** - A network tap (TAP) is a hardware device that allows you to monitor and access data that is transmitted over a network. TAP stands for "Traffic Access Point" or "Test Access Point".
 Network taps are typically used in network security applications to: 
 - Monitor traffic
 - Identify malicious activity or security threats

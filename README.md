@@ -246,8 +246,10 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 - *RAFT*-Raft is a consensus algorithm that's used in Kubernetes to ensure consistency and fault tolerance.Raft is used in Kubernetes' backing store, which is based on a distributed key-value store called etcd.
 - <img height="250" width="500" src="https://github.com/raunakkk21/Keywords/assets/143111163/342dcdd1-1ce0-4947-a159-569a2bd69d43">
 
-45. **Ceph(cephalopod)** - Ceph is an open-source software-defined storage platform that provides object, block, and file storage. It's designed to be self-healing and self-managed, and it can run on any hardware Ceph is maintained by RedHat. It's built on a common distributed cluster foundation. The clusters are designed to run on any hardware with the help of an algorithm called CRUSH (Controlled Replication Under Scalable Hashing).
-46. **OvS** - Open vSwitch (OVS) is an open-source, virtual multilayer switch that provides a switching stack for hardware virtualization environments. OVS is a software switch that turns a Linux server into a switch. It's designed to enable network automation through programmatic extension.Open vSwitch is well suited to function as a virtual switch in VM environments
+45. **Ceph(cephalopod)** - Ceph is an open-source software-defined storage platform that provides object, block, and file storage. It's designed to be self-healing and self-managed, and it can run on any hardware Ceph is maintained by RedHat.
+- It's built on a common distributed cluster foundation. The clusters are designed to run on any hardware with the help of an algorithm called CRUSH (Controlled Replication Under Scalable Hashing).
+46. **OvS** - Open vSwitch (OVS) is an open-source, virtual multilayer switch that provides a switching stack for hardware virtualization environments.
+- OVS is a software switch that turns a Linux server into a switch. It's designed to enable network automation through programmatic extension.Open vSwitch is well suited to function as a virtual switch in VM environments.
 47. **Rancher** - Rancher is an open-source Kubernetes management tool that allows users to deploy and run clusters anywhere and on any provider.
 - Run containers in production
 - Operate Docker in production
@@ -265,7 +267,7 @@ Proxmox VE offers the ability to:
 - Manage two virtualization technologies: KVM(Kernal based VM) for virtual machines and LXC(Linux containers) for containers
 - Manage virtual server (VPS) technology with the Linux OpenVZ and KVM technologies
 - Install different operating systems on a single computer or a cluster built by grouping computers together
-49. **XEN** - Xen is an open-source  hypervisor that allows multiple virtual machines to run on a single physical computer virtual machines.Xen is a Type 1 or bare-metal hypervisor. It runs directly on the system hardware, inserting a virtualization layer between the hardware and the virtual machines. This allows Xen to dynamically allocate logical computing resources to any guest operating system.
+49. **XEN** - Xen is an open-source  hypervisor that allows multiple virtual machines to run on a single physical computer.Xen is a Type 1 or bare-metal hypervisor. It runs directly on the system hardware, inserting a virtualization layer between the hardware and the virtual machines. This allows Xen to dynamically allocate logical computing resources to any guest operating system.
 - Xen is used by some of the largest hyperscale clouds, including: 
   - Amazon Web Service
   - Tencent
@@ -280,9 +282,11 @@ Proxmox VE offers the ability to:
 <img src="https://github.com/mohitpoonia/mohitpoonia/assets/142895350/80e009f8-092b-4c12-883c-b2513eb92b78" height="400" width="700">
 
 # **LXC** 
-LXC stands for Linux Containers. It's an open-source container platform that allows users to create and run multiple isolated Linux virtual environments (VEs) on a single control host. LXC uses a single Linux kernel to run these isolated systems, or containers. 
+LXC stands for Linux Containers. It's an open-source container platform that allows users to create and run multiple isolated Linux virtual environments (VEs) on a single control host. LXC uses a single Linux kernel to run these isolated systems, or containers.   
+<img height="350" width="550" src="https://github.com/raunakkk21/Keywords/assets/143111163/450fdd08-06d4-4e02-a266-77569defc438">
 
-50. **GreenField** vs **Brownfield Application**
+
+# **GreenField** vs **Brownfield Application**
 
 |![greenfield-brownfield-comparison-table](https://github.com/raunakkk21/Keywords/assets/143111163/02d86fa7-c684-45a8-afee-a6414a5b0ea0)|  
 
@@ -313,6 +317,8 @@ It's used to:
 - Control, monitor, and analyze system behavior
 - Attach small, efficient programs to various kernel hooks
 - Run programs upon triggering of an event
+- <img src="https://github.com/raunakkk21/Keywords/assets/143111163/de524128-6424-46d6-a371-019d4aaa9e75" height="350" width="550">
+
 55. **HCI** - Hyper-converged infrastructure (HCI) is a software-defined IT infrastructure that virtualizes all the elements of conventional "hardware-defined" systems. 
   HCI includes: 
 - Virtualized computing (a hypervisor)
@@ -344,27 +350,33 @@ HCI unifies the datacenter stack elements into an abstracted layer of available 
 60. **Replication** - it involves sharing of  information to ensure consistency between redundant resources, such as software or hardware components, to improve reliability, fault-tolerance, or accessibility.
 - Data replication, where the same data is stored on multiple storage devices
 
-### ▶️ NETWORK
- **TAP** - A network tap (TAP) is a hardware device that allows you to monitor and access data that is transmitted over a network. TAP stands for "Traffic Access Point" or "Test Access Point".
+###  NETWORK
+ **TAP** - A network tap (Test Access Port/Traffic access point) is a device that monitors and accesses data transmitted over a network. It's typically used in network security applications to monitor traffic and identify malicious activity or security threats.
 Network taps are typically used in network security applications to: 
 - Monitor traffic
 - Identify malicious activity or security threats
 - Enable monitoring and analysis without interrupting data transmission
-59. **CNI** - Container Network Interface (CNI) is a framework that configures networking resources dynamically.It enables communication and connectivity between containers and external networks. 
+- <img width="519" alt="Screenshot 2023-10-25 215818" src="https://github.com/raunakkk21/Keywords/assets/143111163/014665cc-7bd0-4055-a47f-6a30b53b9b9f">
+
+59. **CNI** - Container Network Interface (CNI) is a framework that configures networking resources dynamically.It enables communication and connectivity between containers and external networks.  CNI is a Cloud Native Computing Foundation (CNCF) project. It uses libraries and specifications written in Go.  
+![1_6yMWeBNTZ7sMRSzUIEPUjg](https://github.com/raunakkk21/Keywords/assets/143111163/cdc45c39-1c8d-418a-ab15-886c55a21c32)
+
+CNI is an essential component of the Kubernetes ecosystem. It enables communication and connectivity between containers and external networks.
 CNI uses a group of libraries and specifications written in Go. The plugin specification defines an interface for: 
 - Configuring the network
 - Provisioning IP addresses
 - Maintaining connectivity with multiple hosts
-60. **Flannel** - Flannel is an open source CNI plugin that: 
+60. **Flannel** - Flannel is a virtual layer that manages an IPv4 network between multiple nodes in a Kubernetes cluster. It's designed for containers only.Flannel is an open source CNI plugin that: 
 - Creates and manages subnets
 - Assigns a separate subnet to each Kubernetes cluster node
 - Assigns an internal IP address
-61. **Overlay** - Overlay networking is a method of using software to create layers of network abstraction on top of a physical network. These layers can be used to run multiple separate, virtualized network layers.
+61. **Overlay** - Overlay networking is a method of using software to create layers of network abstraction on top of a physical network. These layers can be used to run multiple separate, virtualized network layers.In Kubernetes, an overlay network is a virtual network that spans multiple nodes in a cluster and provides connectivity between Pods.
 The purpose of an overlay network is to: 
 - Add missing functionality without a complete network redesign
 - Provide new applications or security benefits
 - Deploy flexible services based on ever-changing connectivity and mobility demands of the endpoints and applications
 62. **Tunnel** - a tunnel is a connection between two computer networks that allows data to be sent from one network to another through an encrypted link. Tunneling works by encapsulating packets, or wrapping packets inside of other packets. 
+  <img src="https://github.com/raunakkk21/Keywords/assets/143111163/f55fb42e-5803-4007-b97e-1a8f8ecd75b3" height="400" width="600">
 Tunneling is used to: 
 - Transfer data securely from one network to another
 - Transport data across a network using protocols that are not supported by that network
@@ -373,26 +385,30 @@ Tunneling is used to:
 63. **TUN** - TUN stands for network TUNnel. It's a virtual interface that simulates a network layer device. TUN operates on layer 3 of the OSI model
 TUN can tunnel data packets of varied nature, including: 
 - Raw TCP - Raw TCP/IP is an insecure communication protocol. It's used to: 
-  - Open a TCP socket-level connection over Port 9100
-  - Stream a print-ready file to the printer input buffer
-- UDP - a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups.
-- SCTP -  a transport-layer protocol that ensures reliable, in-sequence transport of data
+- Open a TCP socket-level connection over Port 9100
+- Stream a print-ready file to the printer input buffer
+- UDP - A communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups.
+- SCTP - A transport-layer protocol that ensures reliable, in-sequence transport of data.
 - Encapsulated packets such as PPP, PPTP, AH/IPSEC
 64. **OSI Model**
-  ![osi model](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/fd698805-5ade-4644-b014-ca4c762b3fc6)
+ <img width="700" alt="Screenshot 2023-10-25 231249" src="https://github.com/raunakkk21/Keywords/assets/143111163/0877b540-3432-456b-9ece-cd2b182c1362">
+
 65. **Load Balancing Algorithms**
-  ![lb-algorithms](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/4432276d-5f25-4630-a6e0-ac69a6112167)
+ ![maxresdefault](https://github.com/raunakkk21/Keywords/assets/143111163/2575f526-4646-4173-917e-eb3b18cb29ce)
+
 66. **RAFT** - Raft is a consensus algorithm.
   Use Cases Of Raft:
   - CockroachDB - used in replication layer
-  - etcd -
-    - replicated log - provides append-only storage of log entries(new data can be appended to the storage, but where existing data is immutable)
-**Hyperscale** - Hyperscale is a computing architecture that can scale as demand increases. Hyperscale cloud computing is a multi-tenant platform that allows users to access computing resources on-demand. These resources are available globally over the internet, enabling users to provision and scale resources instantly.
-**Protobuf** - Protocol Buffers (Protobuf) is a free and open-source data format developed by Google. It's used to serialize structured data for storage and communication over a network. Protobuf is great for the following reasons: 
+  - etcd 
+  - replicated log - Provides append-only storage of log entries(new data can be appended to the storage, but where existing data is immutable)
+66.**Hyperscale** - Hyperscale is a computing architecture that can scale as demand increases. Hyperscale cloud computing is a multi-tenant platform that allows users to access computing resources on-demand. These resources are available globally over the internet, enabling users to provision and scale resources instantly.
+67**Protobuf** - Protocol Buffers (Protobuf) is a free and open-source data format developed by Google. It's used to serialize structured data for storage and communication over a network. Protobuf is great for the following reasons: 
 - Low data volume
 - Persistence
 - Backward-compatible serialization
-67. **KubeVirt** - KubeVirt is an open-source project that allows virtual machines (VMs) and containerized workloads to coexist within Kubernetes clusters.
+68. **KubeVirt** -KubeVirt is an open-source add-on for Kubernetes that allows virtual machines (VMs) to run on Kubernetes. KubeVirt is designed to help development teams that want to use Kubernetes but have workloads that can't be easily containerized.
+<img height="300" width="500" src="https://github.com/raunakkk21/Keywords/assets/143111163/ac5a41b0-d891-4a8e-927a-1ea36fbc50f0">
+
   KubeVirt allows you to: 
 - Provision, manage, and control VMs simultaneously with container resources
 - Integrate with existing Kubernetes deployments seamlessly
@@ -400,15 +416,23 @@ TUN can tunnel data packets of varied nature, including:
 - Access standard pod networking and storage
 - Manage VMs using standard Kubernetes tools such as kubectl
 - Run full virtual machines on Kubernetes alongside regular containers
-68. **Libvert** - Open SOurce developed by Redhat to manage virtualization. It can be used to manage
+69. **Libvert** - Open SOurce developed by Redhat to manage virtualization. It can be used to manage
   - KVM - Open Source Hypervisor for Linux
   - XEN - Type I Hypervisor currently developed by Linux Foundation
   - ESXi (From VMware)
-**PAT** - Port Address Translation (PAT) is a network device feature that translates TCP or UDP communications between hosts on a private network and hosts on a public network. PAT allows a single public IP address to be used by many hosts on the private network. PAT works by: 
-- Assigning each device a unique port number
-- Routing incoming traffic accordingly
-**IaC** - Infrastructure as Code (IaC) is a DevOps practice that uses code to manage and provision infrastructure. It allows developers and operations teams to automatically manage and provision infrastructure through code.
-**HCL** - HCL stands for HashiCorp Configuration Language. It's a configuration language that's designed to be both human and machine-readable. It's used in infrastructure automation to help developers write and deploy cloud resources across multiple platforms.
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/3b891548-c8a9-46ca-979a-10136f7e1df5" height="400" width="600">
+
+It consists of :
+- A long term stable C API
+- A daemon (libvirtd)
+- A command line utility (virsh)
+70**PAT** - Port Address Translation (PAT) is a network device feature that translates TCP or UDP communications between hosts on a private network and hosts on a public network. PAT allows a single public IP address to be used by many hosts on the private network. PAT works by: 
+- Assigning each device a unique port number.
+- Routing incoming traffic accordingly.
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/c309601f-f633-4766-8efa-f2521e8d56b9" height="400" width="600">
+
+71.**IaC** - Infrastructure as Code (IaC) is a DevOps practice that uses code to manage and provision infrastructure. It allows developers and operations teams to automatically manage and provision infrastructure through code.
+72.**HCL** - HCL stands for HashiCorp Configuration Language. It's a configuration language that's designed to be both human and machine-readable. It's used in infrastructure automation to help developers write and deploy cloud resources across multiple platforms.
 
 
 

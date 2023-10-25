@@ -377,35 +377,45 @@ The purpose of an overlay network is to:
 - Deploy flexible services based on ever-changing connectivity and mobility demands of the endpoints and applications
 62. **Tunnel** - a tunnel is a connection between two computer networks that allows data to be sent from one network to another through an encrypted link. Tunneling works by encapsulating packets, or wrapping packets inside of other packets. 
   <img src="https://github.com/raunakkk21/Keywords/assets/143111163/f55fb42e-5803-4007-b97e-1a8f8ecd75b3" height="400" width="600">
-Tunneling is used to: 
+  
+Tunneling is used to:   
+
 - Transfer data securely from one network to another
 - Transport data across a network using protocols that are not supported by that network
 - Allow private network communications to be sent across a public network, such as the Internet
 - Have data authenticated, or authenticated and encrypted
+  
 63. **TUN** - TUN stands for network TUNnel. It's a virtual interface that simulates a network layer device. TUN operates on layer 3 of the OSI model
-TUN can tunnel data packets of varied nature, including: 
+TUN can tunnel data packets of varied nature, including:
+
 - Raw TCP - Raw TCP/IP is an insecure communication protocol. It's used to: 
 - Open a TCP socket-level connection over Port 9100
 - Stream a print-ready file to the printer input buffer
 - UDP - A communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups.
 - SCTP - A transport-layer protocol that ensures reliable, in-sequence transport of data.
 - Encapsulated packets such as PPP, PPTP, AH/IPSEC
+  
 64. **OSI Model**
+    
  <img width="700" alt="Screenshot 2023-10-25 231249" src="https://github.com/raunakkk21/Keywords/assets/143111163/0877b540-3432-456b-9ece-cd2b182c1362">
 
-65. **Load Balancing Algorithms**
+66. **Load Balancing Algorithms**
  ![maxresdefault](https://github.com/raunakkk21/Keywords/assets/143111163/2575f526-4646-4173-917e-eb3b18cb29ce)
 
-66. **RAFT** - Raft is a consensus algorithm.
+67. **RAFT** - Raft is a consensus algorithm.
   Use Cases Of Raft:
   - CockroachDB - used in replication layer
   - etcd 
   - replicated log - Provides append-only storage of log entries(new data can be appended to the storage, but where existing data is immutable)
+    
 66.**Hyperscale** - Hyperscale is a computing architecture that can scale as demand increases. Hyperscale cloud computing is a multi-tenant platform that allows users to access computing resources on-demand. These resources are available globally over the internet, enabling users to provision and scale resources instantly.
-67**Protobuf** - Protocol Buffers (Protobuf) is a free and open-source data format developed by Google. It's used to serialize structured data for storage and communication over a network. Protobuf is great for the following reasons: 
+    
+67**Protobuf** - Protocol Buffers (Protobuf) is a free and open-source data format developed by Google. It's used to serialize structured data for storage and communication over a network. Protobuf is great for the following reasons:   
+
 - Low data volume
 - Persistence
 - Backward-compatible serialization
+  
 68. **KubeVirt** -KubeVirt is an open-source add-on for Kubernetes that allows virtual machines (VMs) to run on Kubernetes. KubeVirt is designed to help development teams that want to use Kubernetes but have workloads that can't be easily containerized.
 <img height="300" width="500" src="https://github.com/raunakkk21/Keywords/assets/143111163/ac5a41b0-d891-4a8e-927a-1ea36fbc50f0">
 
@@ -426,12 +436,15 @@ It consists of :
 - A long term stable C API
 - A daemon (libvirtd)
 - A command line utility (virsh)
-70**PAT** - Port Address Translation (PAT) is a network device feature that translates TCP or UDP communications between hosts on a private network and hosts on a public network. PAT allows a single public IP address to be used by many hosts on the private network. PAT works by: 
+  
+70.**PAT** - Port Address Translation (PAT) is a network device feature that translates TCP or UDP communications between hosts on a private network and hosts on a public network. PAT allows a single public IP address to be used by many hosts on the private network. PAT works by: 
 - Assigning each device a unique port number.
 - Routing incoming traffic accordingly.
+  
 <img src="https://github.com/raunakkk21/Keywords/assets/143111163/c309601f-f633-4766-8efa-f2521e8d56b9" height="400" width="600">
 
-71.**IaC** - Infrastructure as Code (IaC) is a DevOps practice that uses code to manage and provision infrastructure. It allows developers and operations teams to automatically manage and provision infrastructure through code.
+71.**IaC** - Infrastructure as Code (IaC) is a DevOps practice that uses code to manage and provision infrastructure. It allows developers and operations teams to automatically manage and provision infrastructure through code.  
+
 72.**HCL** - HCL stands for HashiCorp Configuration Language. It's a configuration language that's designed to be both human and machine-readable. It's used in infrastructure automation to help developers write and deploy cloud resources across multiple platforms.
 
 

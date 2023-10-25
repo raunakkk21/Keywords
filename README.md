@@ -118,8 +118,8 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 - Software as a Service **(SaaS)** : Salesforce, Shopify, MailChimp, Dropbox, Hubspot
 ### Types of Cloud
 1. Public Cloud - Anywhere on the internet : Cloud Service Provider provides the infrastructure(AWS, Azure) :: *Multi-Tenant*
-2. Private Cloud - Inside the Organisation Network : Organisation solely responsible for infra :: *Single-Tenant*
-3. Hybrid Cloud - Inside Organisation or Anywhere on te internet :: *Multi Tenant + Single Tenant*
+2. Private Cloud - Inside the Organisation Network : Organisation solely responsible for infrastructure :: *Single-Tenant*
+3. Hybrid Cloud - Inside Organisation or Anywhere on the internet :: *Multi Tenant + Single Tenant*
 ## Characterics of Cloud Computing
 - On demand Self-service
 - Broad Network Access
@@ -127,8 +127,8 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 - Rapid Elasticity
 - Measured Service
 ### Benefits of CLoud Computing
-1. pay as you go
-2. scalability
+1. Pay as you go
+2. Scalability
 3. Accessibility
 4. Cost effective
 5. Go global in minutes
@@ -162,10 +162,12 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 1. **SSL Certificate** - Certificate which is statndard for all the domains *X.509*
    - Certifying Authority like Godaddy, Hostinger, Namecheap
    - Signing Certificate Algo is Cryptography : RSA, Elliptic Curve
+   - <img width="467" alt="Screenshot 2023-10-23 202334" src="https://github.com/raunakkk21/Keywords/assets/143111163/a9871ebf-609b-440d-bbf2-e82fe2d68dcf">
+
 - *OpenSSL* is an open-source command line tool that is commonly used to generate private keys, create CSRs, install your SSL/TLS certificate, and identify certificate information. 
 2. **NAT** - Network Address Translation : Convert Private IP Address to public IP Address & vice-versa
-3. **Router** - a device that connects two or more packet-switched networks or subnetworks.
-4. **Compiler** - computer software that translates (compiles) source code written in a high-level language (e.g., C++) into a set of machine-language instructions that can be understood by a digital computer's CPU
+3. **Router** - A router is a physical or virtual device that forwards data packets between computer networks.They manage the traffic and determine best path between source and destination.
+4. **Compiler** - Computer software that translates (compiles) source code written in a high-level language (e.g., C++) into a set of machine-language instructions that can be understood by a digital computer's CPU
 5. **Interpreter** - A computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program.
 6. **Scheduling** - It is the action of assigning resources to perform tasks. The resources may be processors, network links or expansion cards. The tasks may be threads, processes or data flows.
 
@@ -185,15 +187,17 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 - */mnt* - Mount Directory
 - */media* - Removable Devices 
 - */srv* - Service Data
-## Blockchain
-- Satoshi Nakamoto is the creator of Blockchain
-- Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network.
-- Blockchain helps in the verification and traceability of multistep transactions needing verification and traceability.
-- Blockchain uses the three principles of cryptography, decentralization, and consensus to create a highly secure underlying software system that is nearly impossible to tamper with.
+## Blockchain  
+<img src="https://github.com/raunakkk21/Keywords/assets/143111163/71b10323-2748-4cd1-aac5-6573123112bb" height="500" width="700">
+
+- A blockchain is a decentralized, distributed, and often public, digital ledger. It's made up of records called blocks that are used to record transactions across many computers.
+- Blockchains are best known for their role in cryptocurrency systems. They maintain a secure and decentralized record of transactions.
+- Form a chronological single-source-of-truth for the data.
+- Enable exchanges between multiple parties in a secure, immutable manner
 #### Currency
 - Cryptocurrencies are digital currencies that use cryptography to secure and verify transactions in a network. Cryptography is also used to manage and control the creation of such currencies : *Bitcoin and Ethereum*
-- Virtual currencies are a form of digital currency. They are issued by private parties, such as a group of developers or organizations, and are intended only for online use
- - *ICO* - An initial coin offering (ICO) is the cryptocurrency industry's equivalent of an initial public offering (IPO) used in order to raise capital
+- Virtual currencies are a form of digital currency. They are issued by private parties, such as a group of developers or organizations, and are intended only for online use.
+- *ICO* - An initial coin offering (ICO) is the cryptocurrency industry's equivalent of an initial public offering (IPO) used in order to raise capital.
 
 38. **Types of Computing**
 - *Desktop Computing* - Desktop computing devices include workstations, personal computers, and network computing devices. A workstation or desktop personal computer does not have many resource restrictions when connected to a fixed network.
@@ -206,9 +210,10 @@ The main difference between Von Neumann and Harvard architecture is that Von Neu
 - *Edge Computing* - It allows smart applications and devices to respond to data almost at the same time which is important in terms of business ad self-driving cars.It has the ability to process data without even putting it on a public cloud, this ensures full security.
   - Use Cases - In-hospital patient monitoring, Virtualised radio networks and 5G (vRAN), Cloud gaming
 39. **Port Forwarding** - It allows computers or services in private networks to connect over the internet with other public or private computers or services.
-    ![portForwarding_en](https://github.com/raunakkk21/Keywords/assets/143111163/46fcafb6-c363-4d02-8690-a177089e592a)
     
-40. **Cluster** - a group of inter-connected computers or hosts that work together to support applications and middleware (e.g. databases). each computer/host referred as node and each node is assigned same task which help in efficiency and load balancing
+    <img src="https://github.com/raunakkk21/Keywords/assets/143111163/46fcafb6-c363-4d02-8690-a177089e592a" height="400" widht="600" >
+    
+40. **Cluster** - A group of inter-connected computers or hosts that work together to support applications and middleware (e.g. databases). each computer/host referred as node and each node is assigned same task which help in efficiency and load balancing.
 41. **Design Patterns** - A design pattern systematically names, motivates, and explains a general design that addresses a recurring design problem in object-oriented systems. It describes the problem, the solution, when to apply the solution, and its consequences. It also gives implementation hints and examples.
 42. REST API
     |**REST is a set of architectural constraints, not a protocol or a standard. API developers can implement REST in a variety of ways.**|
